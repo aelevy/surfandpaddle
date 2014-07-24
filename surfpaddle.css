@@ -1,13 +1,144 @@
 header {
-  background-color:#1772b8;
+  background:url(waves.jpg);
+  width:100%;
+  margin:0 auto;
+  height: 500px;
+  position:relative;
+}
+.header :hover{
+  opacity:1;
+}
+.header2 {
+  opacity:.5;
+  background-color:#1d6fae;
+  height:500px;
+  width:100%;
+  padding:0px;
+  position:relative;
+}
+header div h1{
+  text-align:center;
+  padding-top: 200px;
+  font-size:5em;
+  color:white;
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-weight:normal;
+}
+body {
+  font-family:'oswald'
 }
 
-header h1{
-  text-align:center;
-}
-header img{
-  display:inline-block;
+.container{
+  clear:both;
   width:100%;
-  max-height: 450px;
-  opacity:0.2;
+  margin-left:15px;
+  position:relative;
+}
+
+section {
+  display:inline-block;
+  width: 70%;
+}
+.headline {
+  display:block;
+
+}
+section h2{
+  font-size:5em;
+}
+section article{
+  padding:10px;
+}
+section img {
+  max-height:100px;
+  width:8%;
+  border-radius:100%;
+}
+.arrowlink {
+  display:inline-block;
+  border: thick solid grey;
+  list-style-type:none;
+  background-color:grey;
+}
+.verticalLine {
+border-left:thick solid silver;
+font-size:3em;
+color:#1d6fae;
+}
+aside {
+  display:inline-block;
+  vertical-align:top;
+  width:28%;
+}
+.myname{
+  display:inline-block;
+  vertical-align:top;
+}
+.namepad{
+  padding-left:75px;
+}
+.nav-aside li {
+  clear:both;
+  list-style-type:none;
+  display:inline-block;
+}
+.smallimgcontain{
+  margin-left:80px;
+  background-color:#1d6fae;
+  max-height:100px;
+  width:25%;
+  border-radius:100%;
+}
+.smallimg{
+  opacity:.6;
+  max-height:100px;
+  width:95%;
+  border-radius:80%;
+}
+.paddlegirl {
+  opacity:.6;
+  max-height: 350px;
+  margin:0 auto;
+}
+.padgirlcontain{
+  background-color:#1d6fae;
+  margin-left:5px;
+  max-height:350px;
+  width:81%;
+}
+footer h2{
+  font-size:2em;
+}
+footer a img:hover{
+  opacity:1;
+}
+footer a img{
+  opacity:.6;
+  margin-left:1px;
+  width:24%;
+  max-height: 200px;
+}
+
+.container2{
+  background-color:#1d6fae;
+  width:100%px;
+  position:relative;
+}
+
+.footernav {
+  height:100px;
+  background-color:#083452;
+  width:100%;
+}
+div footer nav ul {
+  margin-left: 60%;
+}
+.footernavlist li {
+  padding-top:35px;
+  padding-right:15px;
+  display:inline-block;
+  list-style-type:none;
+}
+.footernavlist a {
+  border-right: 2px solid grey;
 }
