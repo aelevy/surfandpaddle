@@ -24,6 +24,11 @@ header div h1{
   font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
   font-weight:normal;
 }
+header div h3{
+  text-align:center;
+  font-faily:"Lucida Sans Unicode","Lucida Grande", sans-serif;
+  position:relative;
+}
 body {
   font-family:'oswald'
 }
