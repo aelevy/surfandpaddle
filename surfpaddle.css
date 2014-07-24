@@ -46,6 +46,7 @@ section {
 }
 .headline {
   display:block;
+  position:relative;
 
 }
 section h2{
