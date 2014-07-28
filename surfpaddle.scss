@@ -1,0 +1,444 @@
+header {
+  background:url(waves.jpg);
+  width:100%;
+  margin:0 auto;
+  height: 500px;
+  position:relative;
+
+   h1{
+    text-align:center;
+    padding-top: 10%;
+    margin:0 auto;
+    font-size:5em;
+    color:white;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight:normal;
+  }
+     h3{
+      text-align:center;
+      font-faily:"Lucida Sans Unicode","Lucida Grande", sans-serif;
+      position:relative;
+    }
+}
+
+.header2 {
+  opacity:.5;
+  background-color:#1d6fae;
+  height:500px;
+  width:100%;
+  padding:0px;
+  position:relative;
+}
+.headicontext{
+  display:inline-block;
+  padding-left:20px;
+}
+.searchbar {
+  display:inline-block;
+  text-color:black;
+  text-decoration:none;
+  margin-left:800px;
+}
+.searchbar a{
+  text-decoration:none;
+}
+.searchbar img{
+  padding-top:15px;
+  height: 20px;
+  width:20px
+}
+body {
+  font-family:'oswald';
+  margin:0 auto;
+}
+.container{
+  clear:both;
+  width:100%;
+  margin-left:15px;
+  position:relative;
+}
+section {
+  display:inline-block;
+  width: 70%;
+
+  h2{
+    font-size:5em;
+  }
+  article{
+      padding:10px;
+    }
+      .smallme{
+        margin-left:20px;
+        max-height:50px;
+        width:8%;
+        border-radius:100%;
+      }
+      .headline {
+        display:inline-block;
+        position:relative;
+        width:100%;
+      }
+      .arrowlink {
+        display:inline-block;
+        border: thick solid gray;
+        margin:0 auto;
+        background-color:gray;
+      }
+      .arrowlink img{
+        height:25px;
+      }
+      .arrowlink a{
+        text-decoration:none;
+      }
+      hr{
+        width:1400px;
+        border:thick solid black;
+        background-color:black;
+      }
+      .verticalLine {
+      border-left:thick solid silver;
+      font-size:3em;
+      color:#1d6fae;
+      }
+}
+
+aside {
+  display:inline-block;
+  vertical-align:top;
+  width:28%;
+
+  h3 {
+    color:#1d6fae;
+  }
+    .myname{
+      display:inline-block;
+      vertical-align:top;
+    }
+    .namepad{
+      padding-left:75px;
+    }
+    .nav-aside li {
+      clear:both;
+      text-decoration:none;
+      display:inline-block;
+    }
+    .smallimgcontain{
+      margin-left:80px;
+      background-color:#1d6fae;
+      max-height:100px;
+      width:25%;
+      border-radius:100%;
+    }
+    .smallimg{
+      opacity:.6;
+      max-height:100px;
+      width:95%;
+      border-radius:80%;
+    }
+    .paddlegirl {
+      opacity:.6;
+      max-height: 350px;
+      width:100%;
+      margin:0 auto;
+    }
+    .padgirlcontain{
+      background-color:#1d6fae;
+      margin-left:5px;
+      max-height:350px;
+      width:81%;
+    }
+}
+
+footer {
+  h2{
+    font-size:2em;
+  }
+  .container2{
+    background-color:#1d6fae;
+    width:100%;
+    position:relative;
+  }
+  .beercontain li{
+    display:inline-block;
+    opacity:.6;
+    width:24%;
+  }
+  .beercontain li span{
+    position:relative;
+    font-size:2em;
+    bottom:43px;
+    left:0px;
+  }
+  .beercontain img{
+    width:100%;
+  }
+  .beercontain :hover{
+    opacity:1;
+  }
+  .footernav {
+    height:100px;
+    background-color:#083452;
+    width:100%;
+  }
+  .something {
+    float:right;
+  }
+  .footlogotext{
+    display:inline-block;
+    margin:0 auto;
+    position:absolute;
+  }
+  .footlogotext img{
+    height:80px;
+    width:60px;
+  }
+  .footernavlist li {
+    padding-top:35px;
+    padding-right:15px;
+    display:inline-block;
+    text-decoration:none;
+  }
+  .footernavlist a {
+    border-right: 2px solid gray;
+  }
+}
+
+@media all and (max-width: 320px) {
+  header {
+    background:url(waves.jpg);
+    width:100%;
+    height:350px;
+    margin:0 auto;
+    position:relative;
+
+     h1{
+      text-align:center;
+      padding-top: 10%;
+      margin:0 auto;
+      font-size:2em;
+      color:white;
+      font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+      font-weight:normal;
+    }
+       h3{
+        text-align:center;
+        font-faily:"Lucida Sans Unicode","Lucida Grande", sans-serif;
+        position:relative;
+      }
+      span{
+        padding:0;
+      }
+
+
+
+  .header2 {
+    opacity:.5;
+    background-color:#1d6fae;
+    width:100%;
+    height:350px;
+    padding:0px;
+    position:relative;
+  }
+  .headicontext{
+    display:inline-block;
+    padding-left:20px;
+
+    p{
+      display:none;
+    }
+  }
+  .imagefix{
+    position: absolute;
+    top: 65px;
+    left: 125px;
+  }
+  .searchbar {
+    display:inline-block;
+    text-color:black;
+    text-decoration:none;
+    margin-left:85px;
+  }
+  .searchbar a{
+    text-decoration:none;
+  }
+  .searchbar img{
+    padding-top:15px;
+    height: 20px;
+    width:20px
+  }
+}
+  body {
+    font-family:'oswald';
+    margin:0 auto;
+  }
+  .container{
+    clear:both;
+    width:100%;
+    margin-left:15px;
+    position:relative;
+  }
+  section {
+    display:block;
+    width: 100%;
+
+    h2{
+      font-size:3em;
+    }
+    article{
+        padding:10px;
+      }
+        .smallme{
+          display:none;
+          margin-left:20px;
+          max-height:50px;
+          width:8%;
+          border-radius:100%;
+        }
+        .headline {
+          display:inline-block;
+          position:relative;
+          width:100%;
+        }
+        .arrowlink {
+          width:25%;
+          display:inline-block;
+          border: thick solid gray;
+          margin:0 auto;
+          background-color:gray;
+        }
+        .arrowlink img{
+          height:25px;
+        }
+        .arrowlink a{
+          display:none;
+          text-decoration:none;
+        }
+        hr{
+          display:none;
+          width:1400px;
+          border:thick solid black;
+          background-color:black;
+        }
+        .verticalLine {
+        border-left:thick solid silver;
+        font-size:3em;
+        color:#1d6fae;
+        }
+  }
+
+  aside {
+    display:block;
+    vertical-align:top;
+    width:100%;
+
+    h3 {
+      color:#1d6fae;
+    }
+      .myname{
+        display:inline-block;
+        vertical-align:top;
+      }
+      .namepad{
+        padding-left:75px;
+      }
+      .nav-aside li {
+        clear:both;
+        text-decoration:none;
+        display:inline-block;
+      }
+      .smallimgcontain{
+        margin-left:80px;
+        background-color:#1d6fae;
+        max-height:100px;
+        width:40%;
+        border-radius:100%;
+      }
+      .smallimg{
+        opacity:.6;
+        max-height:100px;
+        width:100%;
+        border-radius:80%;
+      }
+      .paddlegirl {
+        opacity:.6;
+        max-height: 350px;
+        width:100%;
+        margin:0 auto;
+      }
+      .padgirlcontain{
+        background-color:#1d6fae;
+        margin-left:5px;
+        max-height:350px;
+        width:81%;
+      }
+  }
+
+  footer {
+    h2{
+      font-size:2em;
+    }
+    .container2{
+      background-color:#1d6fae;
+      width:320px;
+      position:relative;
+    }
+    .container2 ul {
+      padding:0;
+    }
+    .beercontain ul {
+      width:320px;
+      margin:0 auto;
+    }
+    .beercontain li{
+      display:block;
+      opacity:.6;
+      width:320px;
+    }
+    .beercontain li span{
+      position:relative;
+      font-size:2em;
+      bottom:43px;
+      left:0px;
+    }
+    .beercontain img{
+      width:100%;
+    }
+    .beercontain :hover{
+      opacity:1;
+    }
+    .footernav {
+      height:200px;
+      background-color:#083452;
+      width:100%;
+      position:relative;
+    }
+    .footlogotext{
+      display:block;
+      margin:0 auto;
+      position:absolute;
+      bottom:0px;
+    }
+    .footlogotext img{
+      height:80px;
+      width:60px;
+      margin-left:120px;
+    }
+    .footlogotext p{
+      margin-left:15px;
+      padding-bottom: 30px;
+      margin-top: -20px;
+    }
+    .footernavlist ul{
+      padding-left:0;
+      margin-right:20px;
+    }
+    .footernavlist li {
+      padding:0;
+      display:inline-block;
+      text-decoration:none;
+    }
+    .footernavlist a {
+      border-right: 2px solid gray;
+    }
+  }
+}
